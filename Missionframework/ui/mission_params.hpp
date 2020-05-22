@@ -177,7 +177,7 @@ class Params {
         title = $STR_A3_IncapacitationMode;
         values[] = {0, 1, 2};
         texts[] = {$STR_A3_Basic, $STR_A3_Advanced, $STR_A3_Realistic};
-        default = 0;
+        default = 3;
     };
     class ReviveBleedOutDuration {
         title = $STR_A3_BleedOutDuration;
@@ -207,13 +207,13 @@ class Params {
         title = $STR_PARAMS_FATIGUE;
         values[] = {0, 1};
         texts[] = {$STR_PARAMS_DISABLED, $STR_PARAMS_ENABLED};
-        default = 1;
+        default = 0;
     };
     class WeaponSway {
         title = $STR_PARAM_WEAPSWAY;
         values[] = {0, 1};
         texts[] = {$STR_PARAMS_DISABLED, $STR_PARAMS_ENABLED};
-        default = 1;
+        default = 0;
     };
     class ArsenalUsePreset {
         title = $STR_PARAMS_ARSENALUSEPRESET;
@@ -237,7 +237,7 @@ class Params {
         title = $STR_PARAM_RESPAWN_COOLDOWN;
         values[] = {0, 300, 600, 900, 1200, 1800, 3600};
         texts[] = {$STR_PARAMS_DISABLED, 5, 10, 15, 20, 30, 60};
-        default = 600;
+        default = 300;
     };
     class MobileArsenal {
         title = $STR_PARAMS_MOBILEARSENAL;
@@ -285,13 +285,13 @@ class Params {
         title = $STR_PARAM_LIMITEDZEUS;
         values[] = {1, 0};
         texts[] = {$STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED};
-        default = 1;
+        default = 0;
     };
     class ZeusAddEnemies {
         title = $STR_PARAM_ZEUSADDENEMIES;
         values[] = {1, 0};
         texts[] = {$STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED};
-        default = 0;
+        default = 1;
     };
     class HighCommand {
         title = $STR_PARAM_HIGHCOMMAND;
@@ -357,7 +357,7 @@ class Params {
         title = $STR_RESTART_PARAM;
         values[] = {0, 1, 2, 3, 4, 5, 6};
         texts[] = {$STR_PARAMS_DISABLED, "1", "2", "3", "4", "5", "6"};
-        default = 0;
+        default = 4;
     };
     class WipeSave1 {
         title = $STR_WIPE_TITLE;
