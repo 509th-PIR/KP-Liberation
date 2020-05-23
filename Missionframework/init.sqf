@@ -1,6 +1,11 @@
 
 KPLIB_init = false;
 
+//Exec Vcom AI function
+[] execVM "Vcom\VcomInit.sqf";
+//End of Vcom commands
+
+
 // Version of the KP Liberation framework
 KP_liberation_version = [0, 96, 7];
 
