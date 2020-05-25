@@ -107,7 +107,7 @@ If you want to change a preset, it's recommended to set all four presets to 0 an
 28 = SFP (Woodland)
 29 = SFP (Desert)
 30 = LDF (Contact DLC) */
-KP_liberation_preset_blufor = 6;
+KP_liberation_preset_blufor = 0;
 
 /* OPFOR preset:
 0  = Custom (default vanilla CSAT)
@@ -131,7 +131,7 @@ KP_liberation_preset_blufor = 6;
 18 = CUP Chernarus Defense Force
 19 = CUP British Armed Forces (Desert)
 20 = CUP British Armed Forces (Woodland) */
-KP_liberation_preset_opfor = 0;
+KP_liberation_preset_opfor = 2;
 
 /* Resistance preset:
 0  = Custom (default vanilla FIA)
@@ -154,7 +154,7 @@ KP_liberation_preset_resistance = 0;
 5  = Unsung
 6  = CUP Takistani Civilians
 7  = CUP Chernarussian Civilians */
-KP_liberation_preset_civilians = 1;
+KP_liberation_preset_civilians = 0;
 
 /* Which arsenal preset should be used?
 0  = Use the default blacklist method (defined below)
@@ -167,15 +167,15 @@ KP_liberation_preset_civilians = 1;
 7  = Unsung US arsenal preset
 8  = SFP arsenal preset
 9  = BWMod arsenal preset */
-KP_liberation_arsenal = 2;
+KP_liberation_arsenal = 1;
 
 /* - Fuel consumption settings.
 Time in minutes till a full tank depletes whilst the vehicle is standing still with a running engine. */
-KP_liberation_fuel_neutral = 180;
+KP_liberation_fuel_neutral = 360;
 // Time in minutes till a full tank depletes whilst the vehicle is driving below max speed.
-KP_liberation_fuel_normal = 90;
+KP_liberation_fuel_normal = 180;
 // Time in minutes till a full tank depletes whilst the vehicle is driving at max speed.
-KP_liberation_fuel_max = 45;
+KP_liberation_fuel_max = 90;
 
 /* - Gameplay constant settings.
 Name of the savegame namespace inside of the [ServerProfileName].vars.Arma3Profile file. */
@@ -257,6 +257,9 @@ KP_liberation_commander_actions = [
     "5468711",
     "2156347"
     */
+    "76561198168637308", // SSG. Angel
+    "76561198024812575", // CPT. Dohop
+    "76561198277313876" // 2LT. Michael
 ];
 
 /* Whitelist for BI support framework access.

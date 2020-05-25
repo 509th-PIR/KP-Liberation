@@ -114,10 +114,10 @@ corpseManagerMode = 1;
 corpseLimit = 50;
 
 // Remove all bodies that have been dead longer than corpseRemovalMinTime when corpseLimit is reached.
-corpseRemovalMinTime = 600;
+corpseRemovalMinTime = 300;
 
 // Maximum time a corpse can remain on the ground if total number of corpses is equal or under corpseLimit.
-corpseRemovalMaxTime = 3600;
+corpseRemovalMaxTime = 900;
 
 // Sets the mode for wreck removal manager.
 // 0 = None                 - None of the vehicles are managed by the manager
@@ -130,10 +130,10 @@ wreckManagerMode = 1;
 wreckLimit = 20;
 
 // Remove all wrecks that have existed longer than wreckRemovalMinTime when wreckLimit is breached.
-wreckRemovalMinTime = 1200;
+wreckRemovalMinTime = 300;
 
 // Maximum time a wreck can remain on the ground if total number of wrecks is equal or under wreckLimit.
-wreckRemovalMaxTime = 7200;
+wreckRemovalMaxTime = 900;
 
 // The minimum distance between corpse or wreck and nearest player before the corpse or wreck is allowed to be removed by the garbage collector.
 minPlayerDistance = 1000;

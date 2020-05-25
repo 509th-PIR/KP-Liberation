@@ -992,5 +992,11 @@ GRLIB_arsenal_backpacks = [
     "tf_rt1523g_green",                                             // RT-1523G (ASIP) Green
     "tf_rt1523g_rhs",                                               // RT-1523G (ASIP) RHS
     "tf_rt1523g_sage",                                              // RT-1523G (ASIP) Sage
-    "tf_rt1523g"                                                    // RT-1523G (ASIP)
+    "tf_rt1523g",                                                   // RT-1523G (ASIP)
+    "tfw_ilbe_blade_coy",                                           // ILBE Blade Coyote
+    "tfw_ilbe_blade_mc",                                            // ILBE Blade Multicam
+    "tfw_ilbe_DD_coy",                                              // ILBE Short Coyote
+    "tfw_ilbe_DD_mc",                                               // ILBE Short Multicam
+    "tfw_ilbe_whip_coy",                                            // ILBE Whip Coyote
+    "tfw_ilbe_whip_mc"                                              // ILBE Whip Multicam
 ];
