@@ -1,7 +1,7 @@
 /*
     Needed Mods:
-    - RHS USAF
-
+    - RHS USAF, Yax 60.
+  Yax 60 "vtx_MH60M", "vtx_MH60M_DAP"
     Optional Mods:
     - F-15C
     - F/A-18
@@ -21,7 +21,7 @@ FOB_box_typename = "B_Slingload_01_Cargo_F";                            // This 
 FOB_truck_typename = "rhsusf_M1078A1P2_B_D_CP_fmtv_usarmy";             // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                   // This is the virtual arsenal as portable supply crates.
 Respawn_truck_typename = "rhsusf_M1085A1P2_B_D_Medical_fmtv_usarmy";    // This is the mobile respawn (and medical) truck.
-huron_typename = "RHS_UH60M_d";                                          // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
+huron_typename = "vtx_MH60M";                                          // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "rhsusf_army_ocp_combatcrewman";                    // This defines the crew for vehicles.
 pilot_classname = "rhsusf_army_ocp_helipilot";                          // This defines the pilot for helicopters.
 KP_liberation_little_bird_classname = "RHS_MELB_AH6M";                  // These are the little birds which spawn on the Freedom or at Chimera base.
@@ -416,5 +416,6 @@ elite_vehicles = [
     "JS_JC_FA18F",                                                      // F/A-18 F Super Hornet
     "B_Plane_Fighter_01_F",                                             // F/A-181 Black Wasp II
     "B_Plane_Fighter_01_Stealth_F",                                     // F/A-181 Black Wasp II (Stealth)
-    "B_T_VTOL_01_armed_F"                                               // V-44 X Blackfish (Armed)
+    "B_T_VTOL_01_armed_F",                                              // V-44 X Blackfish (Armed)
+    "vtx_MH60M_DAP"                                                     // Yax MH 60 Dap
 ];
