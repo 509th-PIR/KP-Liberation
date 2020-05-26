@@ -124,7 +124,17 @@ heavy_vehicles = [
     ["rhsusf_m109d_usarmy",600,1250,300]                                // M109A6
 ];
 
+
+
+
 air_vehicles = [
+    ["vtx_MH60M_DAP",300,200,125],
+    ["vtx_UH60M",225,200,125],
+    ["vtx_HH60",225,200,125],
+    ["vtx_MH60S_Pylons_GAU21L",225,200,125],
+    ["vtx_MH60S_GAU21L",225,200,125],
+    ["vtx_MH60S_Pylons",225,200,125],
+    ["vtx_MH60S",225,200,125],
     ["B_UAV_01_F",75,0,25],                                             // AR-2 Darter
     ["B_UAV_06_F",80,0,30],                                             // AL-6 Pelican (Cargo)
     ["RHS_MELB_MH6M",200,0,100],                                        // MH-6M Little Bird
@@ -417,5 +427,11 @@ elite_vehicles = [
     "B_Plane_Fighter_01_F",                                             // F/A-181 Black Wasp II
     "B_Plane_Fighter_01_Stealth_F",                                     // F/A-181 Black Wasp II (Stealth)
     "B_T_VTOL_01_armed_F",                                              // V-44 X Blackfish (Armed)
-    "vtx_MH60M_DAP"                                                     // Yax MH 60 Dap
+    "vtx_MH60M_DAP",                                                     // Yax MH 60 Dap
+    "vtx_MH60S_Pylons_GAU21L",                                          // class name says it all for below
+    "vtx_MH60S_Pylons",
+    "vtx_MH60S_GAU21L",
+    "vtx_MH60S",
+    "vtx_HH60",
+    "vtx_UH60M" 
 ];
