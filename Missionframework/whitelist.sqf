@@ -15,7 +15,7 @@ GRLIB_whitelisted_steamids = [
 "76561198018673035", // 2LT. Korbal
 "76561198079493776", // CW3. Donov
 "76561198277313876", // Capt. Michael
-"76561198024812575", // CPT. Dohop
+"76561198024812575"  // CPT. Dohop
 ];
 
 // Allowed individual player names. Note that this method is not very secure contrary to SteamIDs.

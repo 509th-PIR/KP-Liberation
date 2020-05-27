@@ -40,7 +40,7 @@ briefingName = $STR_MISSION_TITLE;
 overviewPicture = "res\lib.paa";
 
 // Text to be displayed below the overviewPicture on the mission selection screen
-overviewText = "https://discord.gg/NtPBrSt";
+overviewText = " 509th Discord https://discord.gg/NtPBrSt";
 
 
 /*
@@ -56,7 +56,7 @@ onLoadName = $STR_MISSION_TITLE;
 loadScreen = "res\lib.paa";
 
 // Displays a message while the mission is loading below the loadScreen picture.
-onLoadMission = "https://discord.gg/NtPBrSt";
+onLoadMission = "509th Discord https://discord.gg/NtPBrSt";
 
 
 /*
