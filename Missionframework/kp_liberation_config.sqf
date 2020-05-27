@@ -265,6 +265,9 @@ KP_liberation_commander_actions = [
 /* Whitelist for BI support framework access.
 Same format as for the commander actions. */
 KP_liberation_suppMod_whitelist = [
+    "76561198168637308", // SSG. Angel
+    "76561198024812575", // CPT. Dohop
+    "76561198277313876" // 2LT. Michael
 
 ];
 
